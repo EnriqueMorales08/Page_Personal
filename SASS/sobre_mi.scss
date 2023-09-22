@@ -1,8 +1,7 @@
 #sobre_mi{
-    display: flex;
+    @include flex_box;
     position: relative;
     flex-direction: column;
-    justify-content:center ;
     align-items: center;
     background: $color-fondo-sobre-mi;
 }
@@ -50,10 +49,9 @@
 
 
 #sobre_mi_informacion{
-    display: flex;
+    @include flex_box;
     flex-direction: column;
     gap: 30px;
-    justify-content: center;
     align-items:center ;
     width: 500px;
     text-align: justify;
