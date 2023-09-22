@@ -1,0 +1,27 @@
+#div-ir-arriba {
+    display: flex;
+    cursor: pointer;
+  
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+  
+    background:#2b7f99;
+    color: $color-fondo-proyectos;
+    height: 50px;
+    width: 50px;
+    border-radius: 25px;
+    border: none;
+  
+    box-shadow: 0px 12px 7px $color-proyecto-info-bg;
+    transition: 300ms ease;
+  }
+  
+  #div-ir-arriba:hover {
+    background: #00aeff;
+    transform: translateY(-0.5rem);
+
+  }
+  .div-ir-arriba-flecha{
+    padding: 8px;
+  }

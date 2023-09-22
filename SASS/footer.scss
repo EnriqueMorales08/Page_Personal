@@ -1,0 +1,73 @@
+footer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: $color-footer;
+  }
+
+  .container_footer{
+   
+      display: flex;
+      flex-direction: column;
+      gap: 10px;
+      width: 100%;
+      justify-content: center;
+      align-items: center;
+      margin: 10px 0px;
+  }
+  .container_footer h1{
+      font-size: 50px;
+      font-weight: bolder;
+      color: $color-texto-footer;
+      font-family: cursive;
+      -webkit-text-stroke: 2px $color-texto-footer-stroke;
+  }
+ 
+  #contacto-form{
+   color:#f5f5f5 ;
+   display: flex;
+   flex-direction: column;
+   gap: 10px;
+   justify-content: center;
+   width: 400px;
+  }
+
+  #contacto-form input{
+   padding: 5px; 
+   height: 30px;
+   background-color: $color-input-background;
+   color: $color-input-text;
+   border-bottom: 3px solid $color-input-border;
+  }
+  #contacto-form textarea{
+    padding: 5px;
+    height: 55px;
+    background-color: $color-input-background;
+    color: $color-input-text;
+    border-bottom: 3px solid $color-input-border;
+  }
+  #contacto-form .btn{
+    background-image: $color-btn-background;
+    height: 30px;
+    border-radius: 20px;
+  }
+  #contacto-form input:hover{
+    border-bottom: 3px solid #00ff9d;
+  }
+  #contacto-form textarea:hover{
+    border-bottom: 3px solid #00ff9d;
+    
+  }
+  #contacto-form .btn:hover{
+    cursor: pointer;
+    background-image: $color-btn-background-hover;
+  }
+
+ .footer-text{
+      
+      font-size: 1.2em;
+      font-weight: bolder;
+      color: rgb(0 215 255);
+      font-family: cursive;
+     -webkit-text-stroke: 2px #0d0d0d;
+ }

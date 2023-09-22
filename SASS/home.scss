@@ -1,0 +1,38 @@
+#home{
+    display: flex;
+}
+.contenedor_home{
+    margin-top: 80px;
+    display: flex;
+    gap: 20px;
+
+}
+
+.contenedor_home img{
+    width: 600px; ;
+    height: 700px;
+    padding: 20px;
+
+}
+
+#home_informacion{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 20px;
+    align-items: center;
+    color: $color-texto-seccion;
+    padding: 20px;
+    -webkit-text-stroke: 2px $color-texto-seccion-stroke;
+
+}
+#home_informacion h1{
+    display: flex;
+    align-self: flex-start;
+    font-size: 40px;
+    font-family: 'Black Han Sans', sans-serif;
+}
+#home_informacion p {
+   font-size: 19px;
+   
+}

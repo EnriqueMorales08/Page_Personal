@@ -1,0 +1,109 @@
+@media screen and (max-width: 768px) {
+    /*HEADER*/
+    header div {
+        justify-content: center;
+        width: 100%;
+        background: #1b5261;
+        color: #5fb7ba;
+    }
+   
+    nav{
+        display:none ;
+    }
+    /* HOME*/
+    #home{
+        justify-content: center;
+    }
+    .contenedor_home{
+         flex-wrap: wrap;
+         width: 320px; 
+         justify-content: center;
+         margin-bottom: 20px;
+    }
+    #home_informacion{
+        padding: 10px;
+    }
+    
+    .contenedor_home img{
+        width: 300px; ;
+        height: 300px;
+        padding: 10px;
+    }   
+
+    #home_informacion h1{
+        font-size: 20px;
+    }
+    #home_informacion p {
+       font-size: 12px;
+       -webkit-text-stroke: 1px #0e483d;
+       
+    }
+    /*SOBRE MI*/
+
+    .contenedor_sobre_mi{
+        flex-wrap: wrap;
+        justify-content: center;
+        width: 380px;
+        font-size: 12px;
+        margin-bottom:20px ;
+        width: 320px;
+     }
+
+     #sobre_mi_img {
+
+        align-self: center;
+    }
+    
+    #sobre_mi_img img {
+       width: 250px;
+       height: 250px;
+    }
+    #div_position{
+        display: none;
+        
+    }
+      /*HABILIDADES*/
+      #div_contenedor{   
+        flex-wrap: wrap;
+        gap: 20px;
+        margin: 20px 0px;
+        padding: 5px;
+        width: 320px;
+    }
+    #contenedor_circulo{
+        display: none;
+        width: 300px;
+        height: 300px;  
+    }
+    .circulos img {
+        width: 70px;
+        height: 70px;
+     }#div_habilidades{
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+        padding: 10px;
+    }
+    /*PROYECTOS*/
+    #proyectos{
+        background: linear-gradient(90deg, $color-primario, $color-secundario);
+    }
+    
+
+   .container_footer{
+    width: 300px;
+    margin: 20px;
+   }
+   #contacto-form{
+    width: 300px;
+   }
+   .footer-text{
+    text-align: center;
+   }
+   #div-ir-arriba {
+    opacity: 0.7;
+  
+  }
+
+  
+  }

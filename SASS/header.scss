@@ -1,0 +1,51 @@
+Header{
+    z-index: 5;
+    display: flex;
+    justify-content: space-between;
+    color:$color-texto-header;
+    height: 80px;
+    width: 100%;
+    position: fixed;
+    
+    
+}
+header div{
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    font-family: 'Creepster', cursive;    
+    font-size:30px;
+    background: $color-fondo-header;
+    width: 40%;
+    padding: 10px;
+
+}
+nav{
+
+    display: flex;
+    width: 60%;
+    background: $color-fondo-nav;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Krub', sans-serif;
+
+}
+nav ul{
+    display: flex;
+    gap: 30px;
+    margin-right: 20px;
+    
+}
+nav li{
+    list-style: none;
+    padding: 17px;
+    
+}
+li a{
+    text-decoration: none;
+    color: $color-texto-nav;
+    font-weight: 600;
+}
+nav li:hover{
+    background: $color-hover-nav;
+}

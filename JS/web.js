@@ -36,6 +36,7 @@ const proyectosLista = document.getElementById("proyectos_lista");
 const imagenCompleta = document.getElementById("imagen-completa");
 const imagenAmpliada = document.getElementById("imagen-ampliada");
 const cerrarImagen = document.getElementById("cerrar-imagen");
+const header = document.getElementById("header_page");
 
 proyectos.forEach(proyecto => {
     const listItem = document.createElement("li");
@@ -55,10 +56,13 @@ proyectos.forEach(proyecto => {
     imagen.addEventListener("click", () => {
         imagenAmpliada.src = imagen.src;
         imagenCompleta.style.display = "block";
+        header.style.display="none"
+
     });
 });
 
 // Agregar evento clic para cerrar la imagen a pantalla completa
 cerrarImagen.addEventListener("click", () => {
     imagenCompleta.style.display = "none";
+    header.style.display="flex";
 });
